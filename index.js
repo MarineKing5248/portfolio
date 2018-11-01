@@ -22,8 +22,8 @@ $(".itemimg").on("mouseenter", function(e) {
     if (src === "images/socialB.png") {
         target.attr("src", "images/socialC.png");
     }
-    if (src === "images/easyPCB.png") {
-        target.attr("src", "images/easyPCC.png");
+    if (src === "images/petitionB.png") {
+        target.attr("src", "images/petitionC.png");
     }
 });
 
@@ -35,6 +35,9 @@ $(".itemimg").on("mouseleave", function(e) {
     }
     if (src === "images/socialC.png") {
         target.attr("src", "images/socialB.png");
+    }
+    if (src === "images/petitionC.png") {
+        target.attr("src", "images/petitionB.png");
     }
 });
 

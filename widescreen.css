@@ -40,11 +40,17 @@ h2 {
   margin-bottom: 100px;
 }
 
-.headerLinks1,
-.headerLinks2,
-.headerLinks3,
-.headerLinks4 {
+.headerLinks {
   margin: 0 5% 0 5%;
+  text-align: center;
+  color: #b9b18e;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+.headerLinks:hover {
+  color: #999;
+  text-align: center;
+  cursor: pointer;
 }
 
 #test {
