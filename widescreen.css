@@ -1,0 +1,126 @@
+body {
+  color: #ffffff;
+  font-family: Monospace;
+  font-size: 13px;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0px;
+  overflow: hidden;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+.projectlist {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: calc(100% - 90px);
+  display: inline;
+  overflow: scroll;
+  background: transparent;
+  -webkit-touch-callout: none; /* iOS Safari prevent text select*/
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+#header {
+  position: fixed;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  font-size: 16px;
+  display: inline-flex;
+  margin-bottom: 100px;
+}
+
+.headerLinks1,
+.headerLinks2,
+.headerLinks3,
+.headerLinks4 {
+  margin: 0 5% 0 5%;
+}
+
+#test {
+  min-width: 600px;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+}
+
+#xiaoliu {
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#aboutme {
+  text-align: left;
+  word-wrap: break-word;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.allprojects {
+  word-wrap: break-word;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.projectitem {
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.projectitem:hover {
+  color: white;
+}
+
+.itemimg {
+  height: 210px;
+  width: 280px;
+  border: 1px solid white;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  opacity: 0.5;
+}
+
+.itemimg:hover {
+  height: 200px;
+  width: 270px;
+  border: 6px solid;
+  filter: none;
+  opacity: 1;
+}
+
+input {
+  background: transparent;
+  color: grey;
+}
