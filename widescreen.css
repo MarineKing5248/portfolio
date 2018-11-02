@@ -1,5 +1,5 @@
 body {
-  color: #ffffff;
+  color: #ebebeb;
   font-family: Monospace;
   font-size: 13px;
   text-align: center;
@@ -41,6 +41,8 @@ h2 {
 }
 
 .headerLinks {
+  font-family: "Bree Serif", serif;
+  font-size: 18px;
   margin: 0 5% 0 5%;
   text-align: center;
   color: #b9b18e;
@@ -48,7 +50,7 @@ h2 {
 }
 
 .headerLinks:hover {
-  color: #999;
+  color: #ebebeb;
   text-align: center;
   cursor: pointer;
 }
@@ -56,18 +58,44 @@ h2 {
 #test {
   min-width: 600px;
   font-size: 20px;
-  margin-top: 100px;
   margin-left: 20%;
   margin-right: 20%;
   align-items: center;
+  margin-top: 50px;
 }
 
-#xiaoliu {
-}
+/* #xiaoliu {
+} */
 
 .subtitle {
   text-align: center;
   margin-bottom: 100px;
+}
+
+#about,
+#projects,
+#contact {
+  font-family: "Bree Serif", serif;
+  margin: 0;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-weight: 400;
+  text-align: center;
+  font-weight: 400;
+  color: #b9b18e;
+  font-size: 42px;
+  line-height: 48px;
+  height: 48px;
+}
+.shade {
+  position: relative;
+  margin: -21px 0 0;
+  padding: 0;
+  display: block;
+  background: #111;
+  width: 100%;
+  height: 24px;
+  opacity: 0.25;
+  text-align: center;
 }
 
 #aboutme {
@@ -102,13 +130,13 @@ h4 {
 }
 
 .projectitem:hover {
-  color: white;
+  color: #ebebeb;
 }
 
 .itemimg {
   height: 210px;
   width: 280px;
-  border: 1px solid white;
+  border: 1px solid #ebebeb;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);

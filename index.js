@@ -10,7 +10,7 @@ var getRandomColor = function() {
     })("")
     );
 };
-
+//colored border
 $(".itemimg").on("mouseenter", function(e) {
     let color = getRandomColor();
     var target = $(e.target);
@@ -40,7 +40,7 @@ $(".itemimg").on("mouseleave", function(e) {
         target.attr("src", "images/petitionB.png");
     }
 });
-
+//scroll effect
 $(".headerLinks1").on("click", function() {
     $("#about")[0].scrollIntoView({
         behavior: "smooth",
