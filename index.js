@@ -25,6 +25,12 @@ $(".itemimg").on("mouseenter", function(e) {
     if (src === "images/petitionB.png") {
         target.attr("src", "images/petitionC.png");
     }
+    if (src === "images/imageboardB.png") {
+        target.attr("src", "images/imageboardC.png");
+    }
+    if (src === "images/connect4B.png") {
+        target.attr("src", "images/connect4C.png");
+    }
 });
 
 $(".itemimg").on("mouseleave", function(e) {
@@ -38,6 +44,12 @@ $(".itemimg").on("mouseleave", function(e) {
     }
     if (src === "images/petitionC.png") {
         target.attr("src", "images/petitionB.png");
+    }
+    if (src === "images/imageboardC.png") {
+        target.attr("src", "images/imageboardB.png");
+    }
+    if (src === "images/connect4C.png") {
+        target.attr("src", "images/connect4B.png");
     }
 });
 //scroll effect
