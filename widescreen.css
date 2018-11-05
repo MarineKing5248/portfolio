@@ -214,6 +214,7 @@ input {
 }
 
 .inputBig {
+  background: transparent;
   height: 100px;
   padding: 5px 0px 0px 5px;
   width: 70%;
@@ -250,6 +251,9 @@ input {
 .download {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.textarea {
 }
 
 hr {
