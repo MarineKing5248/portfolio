@@ -1,126 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Xiao's Portfolio</title>
-		<meta charset="utf-8">
-		<link rel="icon" href="images/LXlogo.png">
-		<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-		<link rel="stylesheet" href="widescreen.css">
-		<link rel="stylesheet" media="screen and (max-width: 900px)" href="styles.css">
-        <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	</head>
-	<body>
+  <head>
+    <title>Xiao's Portfolio</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/LXlogo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="widescreen.css" />
+    <!--
+      <link rel="stylesheet" media="screen and (max-width: 900px)" href="styles.css">
+    -->
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="smallscreen.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+  </head>
+  <body>
+    <div id="container"></div>
+    <div class="projectlist">
+      <section id="header">
+        <div class="headerLinks headerLinks1">About</div>
+        <div class="headerLinks headerLinks2">Projects</div>
+        <div class="headerLinks headerLinks3">Contact</div>
+      </section>
 
-		<div id="container"></div>
-		<div class="projectlist">
-			<section id="header">
-				<div class="headerLinks headerLinks1">
-					About
-				</div>
-				<div class="headerLinks headerLinks2">
-					Projects
-				</div>
-				<div class="headerLinks headerLinks3">
-					Contact
-				</div>
-			</section>
+      <div id="test">
+        <!--
+          <div id="xiaoliu">
 
-			<div id="test">
-				<!-- <div id="xiaoliu">
+          </div>
+        -->
+        <div class="subtitle">
+          <h2 id="about">About</h2>
+          <span class="shade">&nbsp;</span>
+          <h4 id="aboutme">
+            Hi! I am Xiao Liu, a mechanical engineer, a full stack javascript
+            developer and IoT Developer. What flows in my vein is the passion
+            for building and creating and CODING.<br />
+            Currently I am working at
+            <a
+              class="anchorStyle"
+              href="https://www.industrial-analytics.io/"
+              target="_blank"
+              >Industrial Analytics Berlin GmbH</a
+            ><br />
+            Skills: JavaScript, Express.js, Node.js, HTML/CSS, SQL, and related
+            libraries and frameworks such as React, Vue, Bootstrap, & jQuery,
+            three.js, d3; Python, OPC-UA <br />
+          </h4>
+        </div>
 
-				</div> -->
-				<div class="subtitle">
-					<h2 id="about">About</h2>
-					<span class="shade">&nbsp;</span>
-					<h4 id="aboutme">Hi! I am Xiao Liu, a garage kit maker, a grandmaster league Starcraft2 pro player, a mechanical engineer and now, most importantly -- a FULL STACK JAVASCRIPT WEB DEVELOPER! What flows in my vein is the passion for building and creating.<br />
-                    I enjoy designing both complex back-end systems and front-end UI. I am also fascinated by 3D game Retro Express(3D JS library Three.js).<br />
-                    I am looking forward to working in a nice team, and continuing my adventure in web development!
-					</h3>
-				</div>
+        <div>
+          <h2 id="projects">Projects</h2>
+          <span class="shade">&nbsp;</span>
+        </div>
+        <div class="allprojects">
+          <div class="projectitem">
+            <a><img src="images/socialB.png" class="itemimg"/></a>
+            <h4>
+              A social network app where users can edit their profile, send and
+              accept friend requests, visit friends' profiles, see currently
+              online users and real time online chat.
+            </h4>
+          </div>
+          <div class="projectitem">
+            <a><img src="images/easyPCB.png" class="itemimg"/></a>
+            <h4>
+              An application to help people build up a balanced PC system.
+            </h4>
+          </div>
+          <div class="projectitem">
+            <a href="https://antidogshit.herokuapp.com/" target="_blank"
+              ><img src="images/petitionB.png" class="itemimg"
+            /></a>
+            <h4>
+              Petition web-site: sign up to help making it a law that dogowners
+              should always pick up the dogshits from their own dogs in public
+              area.
+            </h4>
+          </div>
+          <div class="projectitem">
+            <a><img src="images/imageboardB.png" class="itemimg"/></a>
+            <h4>
+              An image board website where users can upload and comment on
+              images.
+            </h4>
+          </div>
+          <div class="projectitem">
+            <a href="https://connect4wow.herokuapp.com/" target="_blank"
+              ><img src="images/connect4B.png" class="itemimg"
+            /></a>
+            <h4>The classic game of Connect 4.</h4>
+          </div>
+        </div>
+        <!--
+          <div>
+              <h2 id="legacy">Legacy Works</h2>
+              <span class="shade">&nbsp;</span>
+          </div>
+        -->
 
-				<div>
-					<h2 id="projects">Projects</h2>
-					<span class="shade">&nbsp;</span>
-				</div>
-				<div class="allprojects">
-					<div class="projectitem">
-						<a><img src="images/socialB.png" class="itemimg"></a>
-						<h4>A social network app where users can edit their profile, send and accept friend requests, visit friends' profiles, see currently online users and real time online chat.
-						</h4>
-					</div>
-					<div class="projectitem">
-						<a><img src="images/easyPCB.png" class="itemimg"></a>
-						<h4>An application to help people build up a balanced PC system.
-						</h4>
-					</div>
-					<div class="projectitem">
-						<a href="https://antidogshit.herokuapp.com/" target="_blank"><img src="images/petitionB.png" class="itemimg"></a>
-						<h4>Petition web-site: sign up to help making it a law that dogowners should always pick up the dogshits from their own dogs in public area.
-						</h4>
-					</div>
-					<div class="projectitem">
-						<a><img src="images/imageboardB.png" class="itemimg"></a>
-						<h4>An image board website where users can upload and comment on images.
-						</h4>
-					</div>
-					<div class="projectitem">
-						<a href="https://connect4wow.herokuapp.com/" target="_blank"><img src="images/connect4B.png" class="itemimg"></a>
-						<h4>The classic game of Connect 4.
-						</h4>
-					</div>
-				</div>
-				<!-- <div>
-					<h2 id="legacy">Legacy Works</h2>
-					<span class="shade">&nbsp;</span>
-				</div> -->
+        <div class="subtitle">
+          <h2 id="contact">Contact</h2>
+          <span class="shade">&nbsp;</span>
+          <h4>
+            Feel free to send an e-mail on
+            <a class="anchorStyle" href="Mailto:liuxiao5248@hotmail.com"
+              >liuxiao5248@hotmail.com</a
+            >
+          </h4>
+          <h4>Alternatively, you can also drop-in a mail here!</h4>
 
-				<div class="subtitle">
-					<h2 id="contact">Contact</h2>
-					<span class="shade">&nbsp;</span>
-					<h4>Feel free to send an e-mail on
-						<a class="anchorStyle" href="Mailto:liuxiao5248@hotmail.com">liuxiao5248@hotmail.com</a>
-					</h4>
-					<h4>Alternatively, you can also drop-in a mail here!</h4>
+          <form
+            id="formStyle"
+            action="https://formspree.io/liuxiao5248@hotmail.com"
+            method="POST"
+          >
+            <input
+              class="inputSmall"
+              type="text"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+            <span>&nbsp;</span>
+            <input
+              class="inputSmall"
+              type="text"
+              name="name"
+              placeholder="Company name, not required"
+            />
+            <span>&nbsp;</span>
+            <input
+              class="inputSmall"
+              type="email"
+              name="_replyto"
+              placeholder="Your email"
+              required
+            />
+            <span>&nbsp;</span>
+            <textarea
+              class="inputBig"
+              type="text"
+              name="message"
+              placeholder="Your messages"
+              required
+            ></textarea>
+            <span>&nbsp;</span>
+            <input class="submitButton" type="submit" value="Send" />
+            <input type="hidden" name="_subject" value="New submission!" />
+            <!--
+              <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+            -->
+          </form>
+          <div class="download">
+            Download my Resume
+            <a class="anchorStyle" href="images/CVXiaoLiu.pdf" target="“_blank”"
+              >here</a
+            >
+          </div>
+          <!-- <hr> -->
+          <div>
+            <div>You can also find me on:</div>
+            <a href="https://github.com/MarineKing5248" target="_blank"
+              ><img src="images/icon/githubicon.png" class="itemicon"
+            /></a>
+            <a href="https://www.linkedin.com/in/liuxiao5248" target="_blank"
+              ><img src="images/icon/linkedinicon.png" class="itemicon"
+            /></a>
+            <a href="https://twitter.com/MarineKing5248" target="_blank"
+              ><img src="images/icon/twittericon.png" class="itemicon"
+            /></a>
+            <a href="https://www.facebook.com/daniel.liuxiao" target="_blank"
+              ><img src="images/icon/facebookicon.png" class="itemicon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="build/three.js"></script>
+    <script src="index.js"></script>
 
+    <script src="js/renderers/Projector.js"></script>
+    <script src="js/renderers/CanvasRenderer.js"></script>
 
-					<form id="formStyle" action="https://formspree.io/liuxiao5248@hotmail.com" method="POST">
-					    <input class="inputSmall" type="text" name="name" placeholder="Your name" required>
-						<span>&nbsp;</span>
-					    <input class="inputSmall" type="text" name="name" placeholder="Company name, not required">
-						<span>&nbsp;</span>
-					    <input class="inputSmall" type="email" name="_replyto" placeholder="Your email" required>
-						<span>&nbsp;</span>
-					    <textarea class="inputBig" type="text" name="message" placeholder="Your messages" required></textarea>
-						<span>&nbsp;</span>
-					    <input class="submitButton" type="submit" value="Send">
-					    <input type="hidden" name="_subject" value="New submission!" />
-					  <!-- <input type="hidden" name="_next" value="https://site.io/thanks.html" /> -->
-					</form>
-					<div class="download">Download my Resume
-						<a class="anchorStyle" href="images/CVXiaoLiu.pdf" target=“_blank”>here</a>
-					</div>
-					<!-- <hr> -->
-					<div>
-						<div>You can also find me on:</div>
-						<a href="https://github.com/MarineKing5248" target="_blank"><img src="images/icon/githubicon.png" class="itemicon"></a>
-						<a href="https://www.linkedin.com/in/liuxiao5248" target="_blank"><img src="images/icon/linkedinicon.png" class="itemicon"></a>
-						<a href="https://twitter.com/MarineKing5248" target="_blank"><img src="images/icon/twittericon.png" class="itemicon"></a>
-						<a href="https://www.facebook.com/daniel.liuxiao" target="_blank"><img src="images/icon/facebookicon.png" class="itemicon"></a>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script src="build/three.js"></script>
-		<script src="index.js"></script>
-
-		<script src="js/renderers/Projector.js"></script>
-		<script src="js/renderers/CanvasRenderer.js"></script>
-
-		<!-- <script src="js/libs/stats.min.js"></script> -->
-        <script src="build/birds.js"></script>
-
-	</body>
+    <!-- <script src="js/libs/stats.min.js"></script> -->
+    <script src="build/birds.js"></script>
+  </body>
 </html>
