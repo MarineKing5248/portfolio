@@ -88,6 +88,7 @@ h2 {
 
 #about,
 #projects,
+#recentProjects
 #legacy,
 #contact {
   font-family: "Bree Serif", serif;
@@ -251,9 +252,6 @@ input {
 .download {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.textarea {
 }
 
 hr {

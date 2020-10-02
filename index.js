@@ -10,6 +10,7 @@ var getRandomColor = function() {
     })("")
     );
 };
+
 //colored border
 $(".itemimg").on("mouseenter", function(e) {
     let color = getRandomColor();
@@ -31,6 +32,9 @@ $(".itemimg").on("mouseenter", function(e) {
     if (src === "images/connect4B.png") {
         target.attr("src", "images/connect4C.png");
     }
+    if (src === "images/EtangB.png") {
+        target.attr("src", "images/EtangC.png");
+    }
 });
 
 $(".itemimg").on("mouseleave", function(e) {
@@ -50,6 +54,9 @@ $(".itemimg").on("mouseleave", function(e) {
     }
     if (src === "images/connect4C.png") {
         target.attr("src", "images/connect4B.png");
+    }
+    if (src === "images/EtangC.png") {
+        target.attr("src", "images/EtangB.png");
     }
 });
 //scroll effect
